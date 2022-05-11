@@ -1,0 +1,153 @@
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#okno {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.button{
+    color: black;
+    background-color: gold;
+    border-color: darkslateblue;
+    border-radius: 50px;
+}
+#zatemnenie:target {display: block;}
+.close {
+    display: inline-block;
+    border: 1px solid black;
+    color: goldenrod;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+}
+.close:hover {background: #e6e6ff;}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -50px;
+}
+.user_info{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.main_info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color: darkslateblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.box p{
+    color: white;
+}
+.button_input{
+    color: black;
+    background-color: gold;
+    border-color: darkslateblue;
+    border-radius: 50px;
+}
+.add{
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+
+    margin-left: 50px;
+    background-color: dimgray;
+}
+.add:hover{
+    background-color: black;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.login_main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    color: white;
+    margin-left: 500px;
+    background-color: darkslateblue;
+    padding: 60px;
+    border-radius: 50px;
+}
+.login_main div{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.login_main div p{
+    width: 80px;
+}
+.login_main div input{
+    margin-top: 10px;
+    height: 30px;
+}
+.register_main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    color: white;
+    margin-left: 500px;
+    background-color: darkslateblue;
+    padding: 60px;
+    border-radius: 50px;
+}
+.register_main div{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.register_main div p{
+    width: 80px;
+}
+.register_main div input{
+    margin-top: 10px;
+    height: 30px;
+}
+.register_main a{
+    margin-top: 10px;
+    background-color: gold;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+}
